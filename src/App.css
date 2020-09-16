@@ -1,32 +1,16 @@
-* {
-  top: 0;
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 3rem;
 }
 
-.App {
-  display: flex;
-  height: 100vh;
-  max-width: 1300px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 @media screen and (max-width: 960px) {
-  .drawer {
-    margin-left: -75%;
-    margin-top: -230%;
-  }
-  .App {
-    padding-left: 1rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
-  .feedHeader {
-    position: relative;
-    text-align: center;
+  .main {
+    padding: 0.5rem;
   }
   .feed {
-    padding: 0.6rem;
-    min-width: 320px;
+    min-width: 100%;
+    margin-top: 4rem;
   }
 }

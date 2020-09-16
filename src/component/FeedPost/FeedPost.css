@@ -1,30 +1,34 @@
 .post {
-  display: flex;
-  align-items: flex-start;
-  border-bottom: 1px solid #e8f5fe;
+  border: 2px solid #e8f5fe;
+  border-bottom: 4px solid #e8f5fe;
+  padding: 1rem;
+  margin: 2%;
+  min-width: 80%;
 }
-.post h1 {
-  padding: 0;
-  margin: 0;
+.postHeader {
+  display: flex;
+  flex-direction: row;
+}
+.postDetail {
+  font-size: 1.5rem;
 }
 .postAvatar {
   padding: 0.5rem;
+  display: flex;
 }
-.postBody {
-  padding: 1rem;
-}
-.postImage {
-  padding-right: 2rem;
-  width: 15rem;
-  height: 15rem;
+.postAvatar img {
+  border-radius: 30px;
+  height: 15%;
+  width: 15%;
 }
 .footer {
-  padding: 1rem;
+  padding: 1rem 0;
   display: flex;
   justify-content: space-between;
-  border-bottom: 15px solid #e8f5fe;
 }
 
-.footer i {
-  cursor: pointer;
+.postImage {
+  padding-right: 2rem;
+  width: 60%;
+  height: 20%;
 }

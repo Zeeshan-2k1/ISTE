@@ -1,7 +1,9 @@
 .feedbox {
   padding: 1rem;
+  border: 2px solid #e8f5fe;
   border-bottom: 8px solid #e8f5fe;
   justify-content: center;
+  width: 90%;
 }
 .feedbox > form {
   display: flex;
@@ -20,7 +22,7 @@
   font-size: 1.25rem;
   border: none;
   padding: 0.4rem;
-  max-width: 13rem;
+  max-width: 75%;
 }
 .feedImage {
   border: none;
@@ -38,7 +40,7 @@
   margin-left: auto;
   border-radius: 30px;
   cursor: pointer;
-  width: 12rem;
+  width: 40%;
   font-weight: 900;
   text-transform: inherit;
 }
