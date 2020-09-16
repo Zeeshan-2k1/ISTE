@@ -1,0 +1,30 @@
+.post {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #e8f5fe;
+}
+.post h1 {
+  padding: 0;
+  margin: 0;
+}
+.postAvatar {
+  padding: 0.5rem;
+}
+.postBody {
+  padding: 1rem;
+}
+.postImage {
+  padding-right: 2rem;
+  width: 15rem;
+  height: 15rem;
+}
+.footer {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 15px solid #e8f5fe;
+}
+
+.footer i {
+  cursor: pointer;
+}

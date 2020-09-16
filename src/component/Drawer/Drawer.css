@@ -1,0 +1,44 @@
+.drawer {
+  border-right: 1px solid #e8f5fe;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.drawerOption {
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.drawerOption:hover {
+  background-color: #e8f5fe;
+  border-radius: 1.675rem;
+  transition: color 100ms ease-out;
+  color: #50b7f5;
+}
+.drawerIcon {
+  padding-right: 1rem;
+}
+.drawerOption > h2 {
+  font-size: 1.5rem;
+  margin-right: 1.25rem;
+  font-weight: 800;
+}
+.drawerButton {
+  font-size: 1.5rem;
+  background-color: #50b7f5;
+  color: #e8f5fe;
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  margin: 2rem auto;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 12rem;
+  font-weight: 900;
+  text-transform: inherit;
+}
+.drawerButton:hover {
+  background-color: #e8f5fe;
+  color: #50b7f5;
+}
